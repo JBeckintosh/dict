@@ -5,6 +5,7 @@ function Header() {
     return (
         <nav>
             <button><Link to="/my-words">My Words</Link></button>
+            <button><Link to="/product-info">Product Info</Link></button>
             <button><Link to="/payments">Payments</Link></button>
         </nav>
     )
