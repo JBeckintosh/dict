@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import useFetch from '../../hooks/useFetch';
 
 function MyWords() {
+    const { myWords, status } = useFetch('Not a real url');
+
     return (
         <>
-            These are my words
+            {myWords.map((word) => (
+                <div>{word}</div>
+            ))}
         </>
     )
 }
