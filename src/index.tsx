@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import ResponsiveAppBar from './components/app-bar/ResponsiveAppBar';
-import RouteList from './components/routes/RouteList';
+import RouteList from './routes/RouteList';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
